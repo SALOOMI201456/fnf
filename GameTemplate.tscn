@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2ob3opiy0kvc"]
+
+[ext_resource type="Script" uid="uid://batgwjyahxwga" path="res://Strum.gd" id="1_hkanq"]
+[ext_resource type="Script" uid="uid://bp3ps8nqqomn2" path="res://bf.gd" id="2_5q44q"]
+
+[node name="PlayerStrum" type="Node2D"]
+position = Vector2(687, 43)
+scale = Vector2(0.7, 0.7)
+script = ExtResource("1_hkanq")
+
+[node name="Bf" type="Node2D" parent="."]
+position = Vector2(274.286, 507.143)
+scale = Vector2(0.7, 0.7)
+script = ExtResource("2_5q44q")
